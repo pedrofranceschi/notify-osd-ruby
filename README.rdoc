@@ -13,10 +13,10 @@ Download the library and require the notify-osd-ruby.rb file in your code header
 Sending a simple notification:
 
   >> require "notify-osd-ruby.rb"
-	>> notification = Notification.new
+  >> notification = Notification.new
   >> notification.title = "Hello world"
-	>> notification.body = "Testing Notify OSD Ruby, and.. it works!"
-	>> notification.post
+  >> notification.body = "Testing Notify OSD Ruby, and.. it works!"
+  >> notification.post
 
 You should see now the notification appearing in the screen.
 
