@@ -1,5 +1,9 @@
 #!/usr/bin/ruby
 
+# notify-osd-ruby.rb
+# sends ubuntu's notify-osd notifications
+# by pH (Pedro Henrique Cavallieri Franceschi) - iBlogeek.com - 2006-2010 (C) - All Rights Reserved - @pedroh96 - pedrohfranceschi@gmail.com
+
 class Notification
 
 	attr_writer :title, :body, :urgency, :expire_time, :icon

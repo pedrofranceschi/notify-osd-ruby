@@ -1,0 +1,27 @@
+= Notify-OSD-Ruby
+
+== DESCRIPTION:
+
+Library to send Ubuntu's Notify-OSD notifications from Ruby.
+
+== INSTALL:
+
+Download the library and require the notify-osd-ruby.rb file in your code header.
+
+== SYNOPSIS:
+
+Sending a simple notification:
+
+  >> require "notify-osd-ruby.rb"
+	>> notification = Notification.new
+  >> notification.title = "Hello world"
+	>> notification.body = "Testing Notify OSD Ruby, and.. it works!"
+	>> notification.post
+
+You should see now the notification appearing in the screen.
+
+For more informations and examples, take a look at the 'scripts' folder.
+
+== ABOUT:
+
+by pH (Pedro Henrique Cavallieri Franceschi) - iBlogeek.com - 2006-2010 (C) - All Rights Reserved - @pedroh96 - pedrohfranceschi@gmail.com

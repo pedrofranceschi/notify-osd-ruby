@@ -1,5 +1,9 @@
 #!/usr/bin/ruby
 
+# website_status.rb
+# checks a website status and post a Notify-OSD notification.
+# by pH (Pedro Henrique Cavallieri Franceschi) - iBlogeek.com - 2006-2010 (C) - All Rights Reserved - @pedroh96 - pedrohfranceschi@gmail.com
+
 require "../lib/notify-osd-ruby.rb"
 
 def website_is_online?(website)
